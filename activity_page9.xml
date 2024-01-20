@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:weightSum="5"
+    android:background="@drawable/page9"
+    tools:context=".Page9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="18dp"
+            android:text="Good night, cat. Good night, little kittens. It's me, Sheila the Sheep. Please go back to sleep."
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="118dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="180dp"
+            android:text="Back"
+            android:textColor="@color/white"
+            android:onClick="goToPage8"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="118dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="180dp"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:onClick="goToPage10"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>
